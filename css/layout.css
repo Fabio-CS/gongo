@@ -13,6 +13,12 @@
     float: left;
 }
 
+li.first{
+    margin-left: 0;
+}
+div.last{
+    margin-right: 0 !important;
+}
 /********** Header **************/
 
 #header{
@@ -59,4 +65,60 @@
 #div_menu li a:hover{
     color: #414042;
     font-weight: 700;
+}
+
+#div_home{
+    background-color: #EAE6DF;
+    width: 780px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 46px;
+    box-sizing: border-box;
+}
+
+#div_home h5{
+    text-align: center;
+}
+
+#div_slider{
+    height: 450px;
+    width: 100%;
+    background-color: #ccc;
+}
+
+#div_servicos{
+    background-color: #414042;
+    height: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 65px;
+}
+
+#div_servicos h3{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+#div_servicos h3 img{
+    vertical-align: baseline;
+}
+
+#div_icons_servicos{
+    color: #F7F5F0;
+    width: 750px;
+    margin: 50px auto;
+}
+
+#div_icons_servicos div{
+    width: 120px;
+    float: left;
+    margin-right: 90px;
+    text-align: center;
+}
+
+#div_icons_servicos div p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
