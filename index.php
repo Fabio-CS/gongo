@@ -32,7 +32,7 @@
                 <li><a href="#portfolio">Portf&oacute;lio</a></li>
                 <li><a href="#servicos">Servi&ccedil;os</a></li>
                 <li><a href="#combos">Combos</a></li>
-                <li><a href="#quemSomos">Quem Somos</a></li>
+                <li><a href="#quem_somos">Quem Somos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </div>
@@ -44,11 +44,12 @@
                 visual dos clientes de forma criativa e inteligente, proporcionando experiências envolventes e criando conexões para comunicar e engajar o público-alvo.
             </p>
         </div>
-        <div id="div_slider">
+        <div id="div_portfolio">
+            <h3 id="portfolio"><img src="img/square_yellow.png" alt="Portfolio" class="image_title"/> Portfolio</h3>
             
         </div>
         <div id="div_servicos">
-            <h3 id="servicos"><img src="img/square_yellow.png" alt="Serviços"/> Serviços</h3>
+            <h3 id="servicos"><img src="img/square_yellow.png" alt="Serviços" class="image_title"/> Serviços</h3>
             <div id="div_icons_servicos">
                 <div id="div_icon_design_grafico">
                     <img src="img/icon_design_grafico.png" alt="Design Gráfico" /><br>
@@ -71,6 +72,37 @@
                     <img src="img/btn_mais.png" alt="mais" />
                 </div>
             </div>
+        </div>
+        <div id="div_quem_somos">
+            <h3 id="quem_somos"><img src="img/square_yellow.png" alt="Quem Somos" class="image_title"/> Quem Somos</h3>
+            <div id="div_icons_quem_somos">
+                <div id="div_luisa">
+                    <img src="img/foto_luisa.png" alt="Luisa Hillgemann" /><br>
+                    <p>Luisa Hillgemann</p>
+                    <img src="img/btn_mais.png" alt="mais" />
+                </div>
+                <div id="div_lisi">
+                    <img src="img/foto_lisi.png" alt="Lisi Medeiros" /><br>
+                    <p>Lisi Medeiros</p>
+                    <img src="img/btn_mais.png" alt="mais" />
+                </div>
+                <div id="div_rodrigo" class="last">
+                    <img src="img/foto_rodrigo.png" alt="Rodrigo Merched" /><br>
+                    <p>Rodrigo Merched</p>
+                    <img src="img/btn_mais.png" alt="mais" />
+                </div>
+            </div>
+        </div>
+        <div id="div_cabe_bolso">
+            <div id="div_title_cabe_bolso">
+                <div id="icon_cabe_bolso">
+                    <img src="img/combo_icon.png" alt="A gongo cabe no seu bolso" class="image_title"/> 
+                </div>
+                <h1>A GONGO CABE NO SEU BOLSO</h1>
+           </div>
+        </div>
+        <div id="div_combo">
+             <h3 id="combos"><img src="img/square_yellow.png" alt="Combos" class="image_title"/> Combos</h3>
         </div>
     </body>
 </html>

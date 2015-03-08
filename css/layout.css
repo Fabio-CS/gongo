@@ -80,7 +80,9 @@ div.last{
     text-align: center;
 }
 
-#div_slider{
+#div_portfolio{
+    box-sizing: border-box;
+    padding-top: 65px;
     height: 450px;
     width: 100%;
     background-color: #ccc;
@@ -100,7 +102,7 @@ div.last{
     text-align: center;
 }
 
-#div_servicos h3 img{
+.image_title{
     vertical-align: baseline;
 }
 
@@ -117,8 +119,61 @@ div.last{
     text-align: center;
 }
 
-#div_icons_servicos div p{
+#div_icons_servicos div p, #div_icons_quem_somos div p{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+#div_quem_somos, #div_combo{
+    background-color: #fff;
+    height: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 65px;
+}
+
+#div_quem_somos h3, #div_portfolio h3, #div_combo h3{
+    color: #414042;
+    font-weight: normal;
+    text-align: center;
+}
+
+#div_icons_quem_somos{
+    color: #414042;
+    width: 630px;
+    margin: 50px auto;
+}
+
+#div_icons_quem_somos div{
+    width: 150px;
+    float: left;
+    margin-right: 90px;
+    text-align: center;
+}
+
+#div_cabe_bolso{
+    height: 130px;
+    background-color: #414042;
+}
+
+#icon_cabe_bolso{
+    width: 102px;
+    margin-top: 15px;
+    float: left;
+}
+
+#div_cabe_bolso h1{
+    float: left;
+    color: #FBBD1A;
+    font-weight: normal;
+    width: 310px;
+    margin-top: 5px;
+    margin-left: 140px;
+    text-align: center;
+}
+
+#div_title_cabe_bolso{
+    width: 560px;
+    margin: 0 auto;
 }
